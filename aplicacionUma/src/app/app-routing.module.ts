@@ -18,9 +18,10 @@ const routes: Routes = [
   {
     path: 'registrar',
     loadChildren: () => import('./Users/registrar/registrar.module').then( m => m.RegistrarPageModule)
-  },  {
-    path: 'reclouting',
-    loadChildren: () => import('./reclouting/reclouting.module').then( m => m.RecloutingPageModule)
+  },
+  {
+    path: 'postulaciones',
+    loadChildren: () => import('./postulaciones/postulaciones.module').then( m => m.PostulacionesPageModule)
   }
 
 
